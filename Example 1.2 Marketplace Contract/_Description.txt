@@ -1,0 +1,7 @@
+Create a contract, that:
+- Has a method to buy a certain service. The service costs 1 ETH.
+- If the money sent are more than 1ETH, the contract will return the extra back.
+- The contract confirms that the person bought the service by emitting an event.
+- Nobody can buy the service for 2 minutes after someone bought it. Use a custom function modifier for that.
+- Use assert and require whenever possible.
+- The owner of the contract can withdraw the money once per hour and maximum of 5 ETH at a time.

@@ -1,0 +1,14 @@
+Crowdsale Contract
+Create people balances contract.
+ - The contract holds the account balance and the balance is represented by an integer (think tokens).
+ - The contract has states:
+	o Crowdsale state - in the first 5 minutes, where people can buy the token at a rate of 5 Tokens / 1 ETH.
+ 	People cannot transfer during this period
+	o Open exchange state – after that period where people can transfer the tokens.
+ - Minimum investment 1 ETH
+ - Accept only round ETH (i.e. cannot send 0.5 or 1.7 ETH)
+ - The contract owner can withdraw the funds after 1 year
+ - For each token holder there should be a boolean flag that shows if that person holds or ever held tokens
+ - There should be an array that contains all current or past token holders
+ - No duplicates :)
+ - Emit events where you think it’s appropriate

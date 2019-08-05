@@ -1,0 +1,9 @@
+Write a contract, that:
+ - Can accept ETH
+ - Has N number of owners (a list of owners given in constructor)
+ - A proposal can be made to transfer funds to an account (make it a struct)
+ - For the proposal to be accepted, each owner must agree in the order defined in the list
+	o For the second owner to agree, the first one has to agree first.
+	o The same logic for all owners
+ - If all agree within 5 minutes of the proposal, the proposal is accepted and the funds are transferred
+ - Include the necessary constraints

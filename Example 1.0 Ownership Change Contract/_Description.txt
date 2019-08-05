@@ -1,0 +1,11 @@
+Write a contract, that:
+  - knows its owner (contract publisher)
+  - has a method that changes the owner
+	o can only be called by the current owner
+	o the method takes one argument - address of the new owner
+	o at each owner change, a contract event is created with two fields - the old and new owner
+  - has a method that accepts the ownership
+	o can only be executed by the address that is set from the method that changes the owner
+	o the owner has only 30 seconds to accept the ownership
+  - the fallback function shall emit an event with the sender and the value send with the transaction (amount of
+Ethers)

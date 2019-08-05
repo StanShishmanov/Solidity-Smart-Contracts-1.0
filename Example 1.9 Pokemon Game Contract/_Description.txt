@@ -1,0 +1,8 @@
+Pokemon Game
+Create a Pokemon game, that:
+ - Knows ~10 different types of Pokemons
+ - Any player has multiple Pokemons
+ - Any player can say that he caught a Pokemon, but maximum once per 15 seconds (personalized timer)
+ - The contract can list the Pokemons that a player has caught
+ - The contract can list which player possess a Pokemon of certain type
+ - Watch out for duplicates!

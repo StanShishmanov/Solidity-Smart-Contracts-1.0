@@ -1,0 +1,13 @@
+Simple Token Contract
+Create contract that represents a token with the following characteristics:
+ - The token has name.
+ - The token has symbol.
+ - The token has decimals (e.g. decimals = 2, value 100 should be interpreted as 1.00)
+ - Keep track of users balances
+ - Has a total supply (the total number of tokens that exists)
+	o The total supply should be given as a parameter to the constructor
+	o The total supply should be assigned to the contract creator
+	o Keep in mind the decimals
+ - The contract should NOT accept ETH. Penalize everyone who is trying to send ethers to the contract.
+ - Have a function that transfers a number of tokens to another address
+ - Emit events when appropriate

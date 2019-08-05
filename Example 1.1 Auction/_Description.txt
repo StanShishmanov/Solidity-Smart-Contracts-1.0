@@ -1,0 +1,27 @@
+Create an auction contract, that:
+  - Has an owner.
+  - Has method to place bid
+	o The auction should not be cancelled or expired
+	o Should accept ETH
+	o Everyone except the owner can place new bid.
+	o The bid should be greater than the highest bid otherwise the function should throw an exception
+  - Has method to check the highest bid and the highest bidder.
+	o use the correct function modifier
+  - Has method to cancel the auction.
+	o Only the owner can cancel the auction
+  - Has method to withdraw funds
+	o Should send ETH.
+	o If the auction is cancelled everyone can withdraw their bid.
+	o If the auction is not cancelled but it’s expired, then the owner of the auction can withdraw the
+highest bidder bid. Everyone else can withdraw their bid.
+
+  - Every method should emit an event.
+  - Use assert and require whenever possible.
+  - The constructor shall receive 2 parameters – start time and end time.
+	o You need to validate them correctly. Think about it.
+  - Create custom modifiers which will help you with all functions.
+  
+  - Add functionality which requires a minimum bid difference between the highest bid and the new bid. For
+example: the current bid is 5 the next minimum bid is 10, then 15, 20… etc..
+  - The value of the bid margin should be included in the constructor
+  - If someone has placed a bid, he can do it again after 1 hour.

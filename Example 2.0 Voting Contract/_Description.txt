@@ -1,0 +1,18 @@
+Voting Contract
+Create a contract, that:
+ - Is Owned
+ - Can be killed
+ - Uses safe math operations
+ - Has members (people that are member of the contract)
+ - The owner is the first member
+ - The owner can remove members
+ - To add a new member, there needs to be a voting
+	o If >50% of the members agree, the new member is added
+ - For each member we hold:
+	o His address
+	o ETH donated to the contract
+	o Timestamp of last donation
+	o Value of last ETH donation
+ - A member can be removed from the contract if he hasn’t donated to the contract in the last 1 hour
+ - Use a library for all member related actions
+ - Bonus if you don’t use any arrays or loops :)

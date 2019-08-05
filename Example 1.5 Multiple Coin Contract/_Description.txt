@@ -1,0 +1,6 @@
+Write a contract that:
+ - Should store the balance of multiple coins (e.g. – RedCoin, GreenCoin, Blue, Purple, Yellow, Violet, Indigo
+etc.)
+	o You should store the balances of all coins in a _________
+ - The contract creator should have 10000 of each coin
+ - Have one function that are used to send coins (think of a way to determine which coin you are sending)
