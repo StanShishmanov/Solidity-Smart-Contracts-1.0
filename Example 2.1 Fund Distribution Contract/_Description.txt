@@ -1,0 +1,14 @@
+Fund distributing
+ - Write a contract, that can receive funds from any address
+ - The contract has n members (list of addresses by the owner)
+ - n>=3
+ - Each member has an importance (an integer, the higher value the more important is this member’s opinion)
+ - Only the owner can make a proposal for certain funds to be sent to an address
+ - Members vote on the proposal
+ - The owner cannot be a member
+ - Each member votes with his importance points
+ - For it to be successful, half of the total importance of the members has to vote for it.
+ - Use a Library for voting-related actions
+ - Use a withdraw pattern to allow the proposed address to get the voted funds
+ - Have a minimal constructor and separate init()
+ - You can’t avoid loops, but you can make their use minimal :)
