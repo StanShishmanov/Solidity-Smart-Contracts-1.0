@@ -1,0 +1,10 @@
+Initial Crowd Offering
+ - Make an ICO contract
+ - Use whichever structure or methods you prefer
+ - There is a presale stage where the token costs 1ETH each
+ - Later, during the ICO stage the token becomes 2ETH
+ - After presale + ICO, the token is no-longer sold and can be transferred
+ - Avoid any anti-pattern, both in security and optimization
+ - Have unit tests for every major action!
+ - Protection against reentrancy
+ - Use checks-effects-interactions pattern
