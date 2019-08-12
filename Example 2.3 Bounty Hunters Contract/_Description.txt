@@ -1,0 +1,16 @@
+Bounty Contract
+
+Description: 
+  Create a bounty dApp where people can post or submit work.
+
+Considerations:
+  Keep in mind that your project submission needs to fulfill the project specifications
+outlined in the rubric and the project specifications document.
+
+User Stories:
+  As a job poster, I can create a new bounty. I will set a bounty description and include
+the amount to be paid for a successful submission. I am able to view a list of bounties
+that I have already posted. By clicking on a bounty, I can review submissions that have
+been proposed. I can accept or reject the submitted work. Accepting proposed work will
+pay the submitter the deposited amount.
+As a bounty hunter, I can submit work to a bounty for review.
